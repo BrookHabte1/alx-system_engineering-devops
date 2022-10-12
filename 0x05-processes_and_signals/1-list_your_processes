@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#
+var=$(ps auxf)
+echo "$var"

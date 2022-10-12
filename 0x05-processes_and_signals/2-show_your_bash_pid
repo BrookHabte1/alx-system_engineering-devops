@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# shows your bash pid
+# shellcheck disable=SC2009
+var=$(ps auxf | grep bash)
+echo "$var"
